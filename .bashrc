@@ -18,6 +18,9 @@ alias compile="sudo make uninstall && sudo make clean install"
 
 # launch shortcuts
 alias brave="brave & disown"
+alias gimp="gimp & disown"
+alias inkscape="inkscape & disown"
+alias cad="FreeCAD & disown"
 
 # system settings
 alias v='echo -e "enter volume:"; read val; amixer set Master ${val}; pkill -RTMIN+10 dwmblocks'
