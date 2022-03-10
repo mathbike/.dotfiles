@@ -34,6 +34,5 @@ fi
 
 # startup
 sh ~/scripts/startup.sh &
-exec dwm &
-dwmblocks
-
+dwmblocks &
+exec dwm
