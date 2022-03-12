@@ -1,0 +1,8 @@
+set page-padding 	10
+
+set default-fg		"#00cc00"	
+set default-bg		"#000000"
+
+set recolor-lightcolor 	"#0c0d0e"
+set recolor-darkcolor 	"#b7b8b9"
+
