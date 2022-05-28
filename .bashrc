@@ -21,6 +21,7 @@ alias brave="brave & disown"
 alias gimp="gimp & disown"
 alias inkscape="inkscape & disown"
 alias cad="FreeCAD & disown"
+alias razercommander="razercommander & disown"
 
 # system settings
 alias v='echo -e "enter volume:"; read val; amixer set Master ${val}; pkill -RTMIN+10 dwmblocks'
