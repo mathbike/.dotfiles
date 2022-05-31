@@ -15,6 +15,7 @@ PS1='${green}[\u@\h \W]\$ ${off}'
 # configuration settings 
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias compile="sudo make uninstall && sudo make clean install"
+alias suspend="systemctl suspend"
 
 # launch shortcuts
 alias brave="brave & disown"
